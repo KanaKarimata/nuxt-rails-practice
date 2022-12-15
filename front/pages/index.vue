@@ -7,8 +7,8 @@
 
 <script>
 // @=エイリアス:プロジェクトのトップディレクトリを指せる
-  import AddTodo from "../components/AddTodo.vue";
-  import TodoList from "../components/TodoList.vue";
+  import AddTodo from "@/components/AddTodo.vue";
+  import TodoList from "@/components/TodoList.vue";
 
   export default {
     components: {

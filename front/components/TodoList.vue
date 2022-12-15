@@ -28,15 +28,9 @@
 
 <script>
 export default {
-  name: "TodoList",
+  props: ["todos"],
   data() {
     return {
-      todos: [
-        {
-          title: "test",
-          username: "太郎",
-        },
-      ],
       search: "",
       // headersとは、テーブルのヘッダーとなるプロパティを指定できる。
       headers: [

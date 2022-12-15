@@ -25,7 +25,6 @@
 
 <script>
 export default {
-  name: "AddTodo",
   data() {
     return {
       // titleの値は空なのでフォームには初期値として何も入らない
